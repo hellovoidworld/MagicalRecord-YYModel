@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geD-9D-rGX">
+                                <rect key="frame" x="181" y="223" width="239" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="239" id="ZZY-QY-LFK"/>
+                                    <constraint firstAttribute="height" constant="59" id="nqY-d2-qAg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="读取DB数据"/>
+                                <connections>
+                                    <action selector="readAllBoysFromDB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kxC-gV-rOf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6i-Af-UEx">
+                                <rect key="frame" x="181" y="138" width="239" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="239" id="53C-pH-9Ie"/>
+                                    <constraint firstAttribute="height" constant="59" id="zB4-WV-Hvl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="读取json并存储到DB"/>
+                                <connections>
+                                    <action selector="readJsonAndSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iab-zB-Bh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiv-s2-ePf">
+                                <rect key="frame" x="231" y="311" width="139" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="AEB-w3-dQh"/>
+                                    <constraint firstAttribute="height" constant="44" id="tO9-x0-M4S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="清除DB数据"/>
+                                <connections>
+                                    <action selector="cleanDBData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2e0-Te-m1F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x6i-Af-UEx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="118" id="0kL-pN-151"/>
+                            <constraint firstItem="geD-9D-rGX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6y0-yz-k4w"/>
+                            <constraint firstItem="jiv-s2-ePf" firstAttribute="top" secondItem="geD-9D-rGX" secondAttribute="bottom" constant="29" id="8H6-3d-dFG"/>
+                            <constraint firstItem="x6i-Af-UEx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NaQ-WY-8xy"/>
+                            <constraint firstItem="jiv-s2-ePf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V5V-Rv-O4K"/>
+                            <constraint firstItem="geD-9D-rGX" firstAttribute="top" secondItem="x6i-Af-UEx" secondAttribute="bottom" constant="26" id="lH9-Bn-fPS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="230"/>
+        </scene>
+    </scenes>
+</document>

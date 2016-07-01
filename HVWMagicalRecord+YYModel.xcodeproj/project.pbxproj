@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323F6EB91D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 323F6EB61D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.m */; };
+		323F6EBA1D26C1CE00F7CFFF /* HVWBoy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323F6EB81D26C1CE00F7CFFF /* HVWBoy.m */; };
+		329A1D321D26A82E00DCB1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D311D26A82E00DCB1A6 /* main.m */; };
+		329A1D351D26A82E00DCB1A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D341D26A82E00DCB1A6 /* AppDelegate.m */; };
+		329A1D381D26A82E00DCB1A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D371D26A82E00DCB1A6 /* ViewController.m */; };
+		329A1D3B1D26A82E00DCB1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329A1D391D26A82E00DCB1A6 /* Main.storyboard */; };
+		329A1D3E1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D3C1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodeld */; };
+		329A1D401D26A82E00DCB1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329A1D3F1D26A82E00DCB1A6 /* Assets.xcassets */; };
+		329A1D431D26A82E00DCB1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329A1D411D26A82E00DCB1A6 /* LaunchScreen.storyboard */; };
+		329A1D561D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D531D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.m */; };
+		329A1D571D26BE1D00DCB1A6 /* HVWGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D551D26BE1D00DCB1A6 /* HVWGirl.m */; };
+		329A1D5B1D26BE6F00DCB1A6 /* NSManagedObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 329A1D5A1D26BE6F00DCB1A6 /* NSManagedObject+Common.m */; };
+		D2E61673D17552E261C5B28D /* libPods-HVWMagicalRecord+YYModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF50CAAB8ADCD39C0D4FA10 /* libPods-HVWMagicalRecord+YYModel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21CB92A9A49C4ECEAEC9BB74 /* Pods-HVWMagicalRecord+YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HVWMagicalRecord+YYModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HVWMagicalRecord+YYModel/Pods-HVWMagicalRecord+YYModel.debug.xcconfig"; sourceTree = "<group>"; };
+		323F6EB51D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HVWBoy+CoreDataProperties.h"; sourceTree = "<group>"; };
+		323F6EB61D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HVWBoy+CoreDataProperties.m"; sourceTree = "<group>"; };
+		323F6EB71D26C1CE00F7CFFF /* HVWBoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWBoy.h; sourceTree = "<group>"; };
+		323F6EB81D26C1CE00F7CFFF /* HVWBoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWBoy.m; sourceTree = "<group>"; };
+		329A1D2D1D26A82D00DCB1A6 /* HVWMagicalRecord+YYModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HVWMagicalRecord+YYModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		329A1D311D26A82E00DCB1A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		329A1D331D26A82E00DCB1A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		329A1D341D26A82E00DCB1A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		329A1D361D26A82E00DCB1A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		329A1D371D26A82E00DCB1A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		329A1D3A1D26A82E00DCB1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		329A1D3D1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HVWMagicalRecord_YYModel.xcdatamodel; sourceTree = "<group>"; };
+		329A1D3F1D26A82E00DCB1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329A1D421D26A82E00DCB1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		329A1D441D26A82E00DCB1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329A1D4A1D26AC8100DCB1A6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		329A1D521D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HVWGirl+CoreDataProperties.h"; sourceTree = "<group>"; };
+		329A1D531D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HVWGirl+CoreDataProperties.m"; sourceTree = "<group>"; };
+		329A1D541D26BE1D00DCB1A6 /* HVWGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWGirl.h; sourceTree = "<group>"; };
+		329A1D551D26BE1D00DCB1A6 /* HVWGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWGirl.m; sourceTree = "<group>"; };
+		329A1D591D26BE6F00DCB1A6 /* NSManagedObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Common.h"; sourceTree = "<group>"; };
+		329A1D5A1D26BE6F00DCB1A6 /* NSManagedObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Common.m"; sourceTree = "<group>"; };
+		95AD741A295C3B875DC43CD0 /* Pods-HVWMagicalRecord+YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HVWMagicalRecord+YYModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-HVWMagicalRecord+YYModel/Pods-HVWMagicalRecord+YYModel.release.xcconfig"; sourceTree = "<group>"; };
+		BEF50CAAB8ADCD39C0D4FA10 /* libPods-HVWMagicalRecord+YYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HVWMagicalRecord+YYModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329A1D2A1D26A82D00DCB1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E61673D17552E261C5B28D /* libPods-HVWMagicalRecord+YYModel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6814FAB6F55AF5BFC82B06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF50CAAB8ADCD39C0D4FA10 /* libPods-HVWMagicalRecord+YYModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		329A1D241D26A82D00DCB1A6 = {
+			isa = PBXGroup;
+			children = (
+				329A1D2F1D26A82E00DCB1A6 /* HVWMagicalRecord+YYModel */,
+				329A1D2E1D26A82D00DCB1A6 /* Products */,
+				7A5E6035E19E01A7DEC2BAA6 /* Pods */,
+				2D6814FAB6F55AF5BFC82B06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		329A1D2E1D26A82D00DCB1A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329A1D2D1D26A82D00DCB1A6 /* HVWMagicalRecord+YYModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329A1D2F1D26A82E00DCB1A6 /* HVWMagicalRecord+YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				329A1D581D26BE6F00DCB1A6 /* Category */,
+				329A1D4B1D26B24F00DCB1A6 /* CoreDataModel */,
+				329A1D331D26A82E00DCB1A6 /* AppDelegate.h */,
+				329A1D341D26A82E00DCB1A6 /* AppDelegate.m */,
+				329A1D361D26A82E00DCB1A6 /* ViewController.h */,
+				329A1D371D26A82E00DCB1A6 /* ViewController.m */,
+				329A1D391D26A82E00DCB1A6 /* Main.storyboard */,
+				329A1D3F1D26A82E00DCB1A6 /* Assets.xcassets */,
+				329A1D411D26A82E00DCB1A6 /* LaunchScreen.storyboard */,
+				329A1D441D26A82E00DCB1A6 /* Info.plist */,
+				329A1D3C1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodeld */,
+				329A1D301D26A82E00DCB1A6 /* Supporting Files */,
+			);
+			path = "HVWMagicalRecord+YYModel";
+			sourceTree = "<group>";
+		};
+		329A1D301D26A82E00DCB1A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				329A1D311D26A82E00DCB1A6 /* main.m */,
+				329A1D4A1D26AC8100DCB1A6 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		329A1D4B1D26B24F00DCB1A6 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				323F6EB51D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.h */,
+				323F6EB61D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.m */,
+				323F6EB71D26C1CE00F7CFFF /* HVWBoy.h */,
+				323F6EB81D26C1CE00F7CFFF /* HVWBoy.m */,
+				329A1D521D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.h */,
+				329A1D531D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.m */,
+				329A1D541D26BE1D00DCB1A6 /* HVWGirl.h */,
+				329A1D551D26BE1D00DCB1A6 /* HVWGirl.m */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		329A1D581D26BE6F00DCB1A6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				329A1D591D26BE6F00DCB1A6 /* NSManagedObject+Common.h */,
+				329A1D5A1D26BE6F00DCB1A6 /* NSManagedObject+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7A5E6035E19E01A7DEC2BAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21CB92A9A49C4ECEAEC9BB74 /* Pods-HVWMagicalRecord+YYModel.debug.xcconfig */,
+				95AD741A295C3B875DC43CD0 /* Pods-HVWMagicalRecord+YYModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329A1D2C1D26A82D00DCB1A6 /* HVWMagicalRecord+YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329A1D471D26A82E00DCB1A6 /* Build configuration list for PBXNativeTarget "HVWMagicalRecord+YYModel" */;
+			buildPhases = (
+				CF1ED538D0021AE3ABECD7A1 /* Check Pods Manifest.lock */,
+				329A1D291D26A82D00DCB1A6 /* Sources */,
+				329A1D2A1D26A82D00DCB1A6 /* Frameworks */,
+				329A1D2B1D26A82D00DCB1A6 /* Resources */,
+				E128DC0993A894EACAE0FFA5 /* Embed Pods Frameworks */,
+				C1B24415FBF68EFE215C01D2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HVWMagicalRecord+YYModel";
+			productName = "HVWMagicalRecord+YYModel";
+			productReference = 329A1D2D1D26A82D00DCB1A6 /* HVWMagicalRecord+YYModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329A1D251D26A82D00DCB1A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hellovoidworld;
+				TargetAttributes = {
+					329A1D2C1D26A82D00DCB1A6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 329A1D281D26A82D00DCB1A6 /* Build configuration list for PBXProject "HVWMagicalRecord+YYModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329A1D241D26A82D00DCB1A6;
+			productRefGroup = 329A1D2E1D26A82D00DCB1A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329A1D2C1D26A82D00DCB1A6 /* HVWMagicalRecord+YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329A1D2B1D26A82D00DCB1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329A1D431D26A82E00DCB1A6 /* LaunchScreen.storyboard in Resources */,
+				329A1D401D26A82E00DCB1A6 /* Assets.xcassets in Resources */,
+				329A1D3B1D26A82E00DCB1A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1B24415FBF68EFE215C01D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HVWMagicalRecord+YYModel/Pods-HVWMagicalRecord+YYModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1ED538D0021AE3ABECD7A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E128DC0993A894EACAE0FFA5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HVWMagicalRecord+YYModel/Pods-HVWMagicalRecord+YYModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329A1D291D26A82D00DCB1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323F6EB91D26C1CE00F7CFFF /* HVWBoy+CoreDataProperties.m in Sources */,
+				329A1D381D26A82E00DCB1A6 /* ViewController.m in Sources */,
+				329A1D3E1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodeld in Sources */,
+				329A1D351D26A82E00DCB1A6 /* AppDelegate.m in Sources */,
+				323F6EBA1D26C1CE00F7CFFF /* HVWBoy.m in Sources */,
+				329A1D5B1D26BE6F00DCB1A6 /* NSManagedObject+Common.m in Sources */,
+				329A1D571D26BE1D00DCB1A6 /* HVWGirl.m in Sources */,
+				329A1D561D26BE1D00DCB1A6 /* HVWGirl+CoreDataProperties.m in Sources */,
+				329A1D321D26A82E00DCB1A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		329A1D391D26A82E00DCB1A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329A1D3A1D26A82E00DCB1A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		329A1D411D26A82E00DCB1A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329A1D421D26A82E00DCB1A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		329A1D451D26A82E00DCB1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		329A1D461D26A82E00DCB1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329A1D481D26A82E00DCB1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CB92A9A49C4ECEAEC9BB74 /* Pods-HVWMagicalRecord+YYModel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "HVWMagicalRecord+YYModel/PrefixHeader.pch";
+				INFOPLIST_FILE = "HVWMagicalRecord+YYModel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hellovoidworld.HVWMagicalRecord-YYModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		329A1D491D26A82E00DCB1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AD741A295C3B875DC43CD0 /* Pods-HVWMagicalRecord+YYModel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "HVWMagicalRecord+YYModel/PrefixHeader.pch";
+				INFOPLIST_FILE = "HVWMagicalRecord+YYModel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hellovoidworld.HVWMagicalRecord-YYModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329A1D281D26A82D00DCB1A6 /* Build configuration list for PBXProject "HVWMagicalRecord+YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329A1D451D26A82E00DCB1A6 /* Debug */,
+				329A1D461D26A82E00DCB1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329A1D471D26A82E00DCB1A6 /* Build configuration list for PBXNativeTarget "HVWMagicalRecord+YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329A1D481D26A82E00DCB1A6 /* Debug */,
+				329A1D491D26A82E00DCB1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		329A1D3C1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				329A1D3D1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodel */,
+			);
+			currentVersion = 329A1D3D1D26A82E00DCB1A6 /* HVWMagicalRecord_YYModel.xcdatamodel */;
+			path = HVWMagicalRecord_YYModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 329A1D251D26A82D00DCB1A6 /* Project object */;
+}

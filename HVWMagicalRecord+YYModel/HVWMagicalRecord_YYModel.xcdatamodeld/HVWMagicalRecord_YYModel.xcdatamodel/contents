@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="HVWBoy" representedClassName="HVWBoy" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nick" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="girlfriends" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HVWGirl" inverseName="boyfriend" inverseEntity="HVWGirl" syncable="YES"/>
+    </entity>
+    <entity name="HVWGirl" representedClassName="HVWGirl" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="boyfriend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HVWBoy" inverseName="girlfriends" inverseEntity="HVWBoy" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HVWBoy" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="HVWGirl" positionX="-54" positionY="18" width="128" height="90"/>
+    </elements>
+</model>
