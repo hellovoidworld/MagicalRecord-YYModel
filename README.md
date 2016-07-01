@@ -12,7 +12,7 @@ YYModel: [YYModel git](https://github.com/ibireme/YYModel)
 
 思路是：  
 1. 在Entity Class中实现分类中要调用的方法"primaryKeys"用来指定自定义主键，"coreDataModelContainerPropertyGenericClass"指定容器属性（relation）中的元素类，modelPropertyBlacklist屏蔽relation的普通赋值。  
-2. 读取json数据，解析成字典。
+2. 读取json数据，解析成字典。  
 3. 使用MagicalRecord创建DB Entity，再使用YYModel赋值。  
-4. 使用runtime，探测出此Entity中的relation，并递归调用上一步的创建Entity和赋值逻辑。
+4. 使用runtime，探测出此Entity中的relation，并递归调用上一步的创建Entity和赋值逻辑。  
 5. 存入数据库。
